@@ -24,8 +24,8 @@
 #include <Wire.h>
 
 #define MPU6050_I2CADDR_DEFAULT                                                \
-  0x68                         ///< MPU6050 default i2c address w/ AD0 high
-#define MPU6050_DEVICE_ID 0x68 ///< The correct MPU6050_WHO_AM_I value
+  0x60                         ///< MPU6050 default i2c address w/ AD0 high
+#define MPU6050_DEVICE_ID 0x60 ///< The correct MPU6050_WHO_AM_I value
 
 #define MPU6050_SELF_TEST_X                                                    \
   0x0D ///< Self test factory calibrated values register
@@ -44,7 +44,7 @@
 #define MPU6050_INT_ENABLE 0x38     ///< Interrupt enable configuration register
 #define MPU6050_INT_STATUS 0x3A     ///< Interrupt status register
 #define MPU6050_WHO_AM_I 0x75       ///< Divice ID register
-#define MPU6050_SIGNAL_PATH_RESET 0x68 ///< Signal path reset register
+#define MPU6050_SIGNAL_PATH_RESET 0x60 ///< Signal path reset register
 #define MPU6050_USER_CTRL 0x6A         ///< FIFO and I2C Master control register
 #define MPU6050_PWR_MGMT_1 0x6B        ///< Primary power/sleep control register
 #define MPU6050_PWR_MGMT_2 0x6C ///< Secondary power/sleep control register
